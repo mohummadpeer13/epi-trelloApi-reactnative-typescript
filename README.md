@@ -42,9 +42,7 @@ Il rassemble des inspirations de couleurs, typographies, icônes et interfaces p
 - Icônes et illustrations liées à l’organisation et la productivité
 - Exemples d’interfaces Trello et applications de gestion de tâches
 
-### Exemple de moodboard
-
-![Moodboard exemple](./documentation/moodboard.pdf)
+![Moodboard](./documentation/moodboard.pdf)
 
 ## 🔧 Installation et lancement
 
