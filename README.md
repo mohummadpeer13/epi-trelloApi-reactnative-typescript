@@ -15,7 +15,7 @@ Une application mobile développée en **React Native** avec **TypeScript**, per
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Trello REST API](https://developer.atlassian.com/cloud/trello/rest/)
-- [Axios](https://axios-http.com/)
+- [Fetch API (native)](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 - [React Navigation](https://reactnavigation.org/)
 - [Expo](https://expo.dev/)
 
