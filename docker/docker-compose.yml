@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  expo:
+    build: .
+    environment:
+      - TRELLO_API_KEY=${TRELLO_API_KEY}
+    container_name: expo-dev
+    volumes:
+      - ./my-app:/my-app
+      - /my-app/node_modules
+    ports:
+      - "8081:8081"
+      - "19000:19000"
+      - "19001:19001"
+    stdin_open: true
+    tty: true

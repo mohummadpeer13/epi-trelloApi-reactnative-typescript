@@ -1,2 +1,58 @@
-*.agdai
-MAlonzo/**
+# Global node_modules (dans my-app)
+my-app/node_modules/
+
+# macOS
+.DS_Store
+
+# TypeScript
+my-app/*.tsbuildinfo
+
+# Expo (si utilisé)
+my-app/.expo/
+my-app/.expo-shared/
+
+# Android
+my-app/android/.gradle/
+my-app/android/app/build/
+my-app/android/build/
+my-app/*.keystore
+my-app/*.jks
+
+# iOS
+my-app/ios/Pods/
+my-app/ios/build/
+my-app/ios/DerivedData/
+my-app/**/*.xcworkspace
+my-app/**/*.xcuserstate
+my-app/**/*.xcuserdata/
+my-app/**/*.pbxuser
+
+# Cache & logs
+my-app/*.log
+my-app/npm-debug.log*
+my-app/yarn-debug.log*
+my-app/yarn-error.log*
+my-app/package-lock.json
+my-app/yarn.lock
+my-app/.buckconfig
+my-app/.metro/
+my-app/.cache/
+my-app/tmp/
+my-app/temp/
+
+# Environnement
+my-app/.env
+my-app/.env.*
+
+# VSCode settings
+my-app/.vscode/
+
+# Output
+my-app/coverage/
+my-app/dist/
+my-app/build/
+
+# Swap files
+*.swp
+*.swo
+
